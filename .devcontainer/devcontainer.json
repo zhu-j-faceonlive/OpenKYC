@@ -12,7 +12,7 @@
 	"forwardPorts": [7860],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip3 install --user -r requirements.txt; python app.py;", 
+	"postCreateCommand": "pip3 install --user -r requirements.txt", 
 
   "secrets": {
   "API_KEY": {
